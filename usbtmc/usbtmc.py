@@ -70,7 +70,7 @@ USB488_LOCAL_LOCKOUT    = 162
 
 USBTMC_HEADER_SIZE = 12
 
-RIGOL_QUIRK_PIDS = [0x04ce, 0x0588]
+RIGOL_QUIRK_PIDS = [0x04ce, 0x0588, 0x0e11]
 
 
 def parse_visa_resource_string(resource_string):
